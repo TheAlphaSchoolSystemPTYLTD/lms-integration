@@ -1,6 +1,6 @@
-**getStudentSubjects**
+**getTeacherSubjects**
 ----
-  Returns a structure of Students with an array of structured Subject data in JSON format.
+  Returns a structure of Teachers with an array of structured Subject data in JSON format.
 
 * **Version:**
 
@@ -14,7 +14,7 @@
 
    **Required:**
 
-   `code [string]` -  Valid student code or 'all'
+   `code [string]` -  Valid teacher code or 'all'
    
    **Optional:**
 
@@ -28,64 +28,56 @@
 
     ```javascript
       {
-        "0009080": [
+        "AC": [
           {
             "semester": 1,
             "year_grp_desc": 11,
-            "sub_code": "ANCH20",
-            "from_date": "",
-            "sub_short": "AnHist",
+            "sub_code": "0001",
+            "sub_short": "Goat",
             "year_grp": 11,
             "year_num": 2018,
-            "to_date": "",
-            "student_code": "0009080",
-            "sub_long": "Ancient History",
+            "sub_long": "English",
             "class": "A",
-            "sub_type": "COR"
-          },
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "0080",
-            "from_date": "",
-            "sub_short": "Art",
-            "year_grp": 11,
-            "year_num": 2018,
-            "to_date": "",
-            "student_code": "0009080",
-            "sub_long": "Art AR Desc",
-            "class": "C",
-            "sub_type": "ELE"
-          },
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "ASSEMBLY",
-            "from_date": "",
-            "sub_short": "ASSEMB",
-            "year_grp": 11,
-            "year_num": 2018,
-            "to_date": "",
-            "student_code": "0009080",
-            "sub_long": "School Assembly",
-            "class": "A",
-            "sub_type": "NON"
+            "sub_type": "VET",
+            "teacher_code": "AC"
           }
         ],
-        "0009704": [
+        "AJ": [
           {
-          "semester": 1,
-          "year_grp_desc": 6,
-          "sub_code": "ASSEMBLY",
-          "from_date": "",
-          "sub_short": "ASSEMB",
-          "year_grp": 6,
-          "year_num": 2018,
-          "to_date": "",
-          "student_code": "0009704",
-          "sub_long": "School Assembly",
-          "class": "A",
-          "sub_type": "NON"
+            "semester": 1,
+            "year_grp_desc": -1,
+            "sub_code": "0001",
+            "sub_short": "Goat",
+            "year_grp": -1,
+            "year_num": 2018,
+            "sub_long": "English",
+            "class": "A",
+            "sub_type": "VET",
+            "teacher_code": "AJ"
+          },
+          {
+            "semester": 1,
+            "year_grp_desc": 3,
+            "sub_code": "0001",
+            "sub_short": "Goat",
+            "year_grp": 3,
+            "year_num": 2018,
+            "sub_long": "English",
+            "class": "A",
+            "sub_type": "VET",
+            "teacher_code": "AJ"
+          },
+          {
+            "semester": 1,
+            "year_grp_desc": 11,
+            "sub_code": "0001",
+            "sub_short": "Goat",
+            "year_grp": 11,
+            "year_num": 2018,
+            "sub_long": "English",
+            "class": "A",
+            "sub_type": "VET",
+            "teacher_code": "AJ"
           }
         ]
       }
@@ -100,11 +92,10 @@
     }
     ```
 
-
-    `code` not a valid student code
+    `code` not a valid teacher code
     ```javascript
     __invalid: {
-      "code": "Invalid Student Code"
+      "code": "Invalid Teacher Code"
     }
     ```
    
@@ -112,7 +103,7 @@
 
   ```javascript
     { 
-      "code":"0009080"
+      "code":"AJ"
     }
   ```
 
