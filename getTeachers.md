@@ -78,10 +78,10 @@
     }
     ```
 
-    `currentstatus` not be 'current' or 'future' or 'past' or 'noncurrent'
+    `currentstatus` must be 'current' or 'noncurrent'
     ```javascript
     __invalid: {
-      "currentstatus": "Current Status must be 'current' or 'future' or 'past' or 'noncurrent'."
+      "currentstatus": "Current Status must be 'current' or 'noncurrent'."
     }
     ```
 
