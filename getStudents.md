@@ -86,7 +86,15 @@
         }
       ]
     ```
- 
+
+    The State based Student numbers are returned based on the state code of the school.
+
+      QLD LUI Number: 'lui_number'
+      NSW BOS Number: 'bos_number'
+      VIC VSN Number: 'vsn_number'
+      TAS TQA Number: 'tqa_number'
+      WA Student Number: 'wa_student_number'
+
 * **Error Response:**
 
     `currentstatus` not supplied
