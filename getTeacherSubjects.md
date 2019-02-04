@@ -39,7 +39,8 @@
             "sub_long": "English",
             "class": "A",
             "sub_type": "VET",
-            "teacher_code": "AC"
+            "teacher_code": "AC",
+            "employee_code": "1000055"
           }
         ],
         "AJ": [
@@ -53,7 +54,8 @@
             "sub_long": "English",
             "class": "A",
             "sub_type": "VET",
-            "teacher_code": "AJ"
+            "teacher_code": "AJ",
+            "employee_code": "1000043"
           },
           {
             "semester": 1,
@@ -65,7 +67,8 @@
             "sub_long": "English",
             "class": "A",
             "sub_type": "VET",
-            "teacher_code": "AJ"
+            "teacher_code": "AJ",
+            "employee_code": "1000043"
           },
           {
             "semester": 1,
@@ -77,7 +80,8 @@
             "sub_long": "English",
             "class": "A",
             "sub_type": "VET",
-            "teacher_code": "AJ"
+            "teacher_code": "AJ",
+            "employee_code": "1000043"
           }
         ]
       }
