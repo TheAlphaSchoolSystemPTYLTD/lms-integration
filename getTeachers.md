@@ -64,6 +64,7 @@
             }
           },
           "teacher_code": "APA",
+          "employee_code": "1000043",
           "given_names": "Ariel Lynne"
         }
       ]
