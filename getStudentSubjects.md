@@ -18,7 +18,7 @@
    
    **Optional:**
 
-   none
+   `lmsflag [string]` -  Must be 'Y' or 'N' for whether returning lms subjects.
 
    **Conditional:**
  
@@ -100,11 +100,17 @@
     }
     ```
 
-
     `code` not a valid student code
     ```javascript
     __invalid: {
       "code": "Invalid Student Code"
+    }
+    ```
+    
+    `lmsflag` not set to 'Y' or 'N'
+    ```javascript
+    __invalid: {
+      "lmsflag": "lmsflag must be set to 'Y' or 'N'."
     }
     ```
    
@@ -112,7 +118,8 @@
 
   ```javascript
     { 
-      "code":"0009080"
+      "code":"0009080",
+      "lmsflag":"Y"
     }
   ```
 
