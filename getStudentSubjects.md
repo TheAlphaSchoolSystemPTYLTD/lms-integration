@@ -2,6 +2,10 @@
 ----
   Returns a structure of Students with an array of structured Subject data in JSON format.
 
+* **Version History:**
+
+  TASS v50.5 - lmsflag Added
+
 * **Version:**
 
   2
@@ -18,7 +22,7 @@
    
    **Optional:**
 
-   none
+   `lmsflag [string]` -  Must be 'Y' or 'N' for whether returning lms subjects.
 
    **Conditional:**
  
@@ -99,12 +103,18 @@
       "code": "field is required"
     }
     ```
-
-
+    
     `code` not a valid student code
     ```javascript
     __invalid: {
       "code": "Invalid Student Code"
+    }
+    ```
+    
+    `lmsflag` not set to 'Y' or 'N'
+    ```javascript
+    __invalid: {
+      "lmsflag": "lmsflag must be set to 'Y' or 'N'."
     }
     ```
    
@@ -112,7 +122,8 @@
 
   ```javascript
     { 
-      "code":"0009080"
+      "code":"0009080",
+      "lmsflag":"Y"
     }
   ```
 
