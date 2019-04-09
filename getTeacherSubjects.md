@@ -18,7 +18,7 @@
    
    **Optional:**
 
-   none
+   `lmsflag [string]` -  Must be 'Y' or 'N' for whether returning lms subjects.
 
    **Conditional:**
  
@@ -102,12 +102,20 @@
       "code": "Invalid Teacher Code"
     }
     ```
+    
+    `lmsflag` not set to 'Y' or 'N'
+    ```javascript
+    __invalid: {
+      "lmsflag": "lmsflag must be set to 'Y' or 'N'."
+    }
+    ```
    
 * **Sample Parameters:**
 
   ```javascript
     { 
-      "code":"AJ"
+      "code":"AJ",
+      "lmsflag":"Y"
     }
   ```
 
