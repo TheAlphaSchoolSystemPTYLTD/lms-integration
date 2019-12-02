@@ -1,6 +1,12 @@
 **getStudents**
 ----
   Returns an array of structured Student data comprising general, school, and other school details in JSON format.
+  
+* **Version History:**
+
+  TASS v49.7 (PR9) - New field ("pcTutorGroup") added to the data returned.
+
+  TASS v52.0 - Return three new fields `preferred_surname`, `first_name`, `other_name` in general_details.
 
 * **Version:**
 
@@ -33,6 +39,9 @@
         {
           "general_details": {
             "surname": "Angus",
+            "first_name": "Paul",
+            "other_name": "",
+            "preferred_surname": "Angus",
             "next_year_indicator": "Advancing",
             "date_of_leaving": "",
             "student_code": 20073,
