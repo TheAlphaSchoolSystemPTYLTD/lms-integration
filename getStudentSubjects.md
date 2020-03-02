@@ -4,11 +4,15 @@
 
 * **Version History:**
 
-  TASS v50.5 - lmsflag Added
+  TASS v52.5 - Method Added
 
 * **Version:**
 
-  2
+  3
+
+* **Permission:**
+
+  Student Records > Students > Subjects Tab > View
 
 * **Method:**
 
@@ -130,7 +134,7 @@
 * **Sample GET:** (With URL Encoded `token`)
 
   ```HTML
-    http://api.tasscloud.com.au/tassweb/api/?method=GetStudentSubjects&appcode=DEMOSD&company=10&v=2&token=l1D8owEn111IHcXLRwXTB0oU2GX6rj%2BISqa9zXA8We1Gqx9%2Fzb%2BcbVFartivsDN%2FxGgAIIjtABAYfzYPqTCpLf3gb0nW3h%2FTrPFLMhAdNcVvHD0Gz4FkRj5jRAD1aAGQ
+    http://api.tasscloud.com.au/tassweb/api/?method=GetStudentSubjects&appcode=API03&company=10&v=3&token=l1D8owEn111IHcXLRwXTB0oU2GX6rj%2BISqa9zXA8We1Gqx9%2Fzb%2BcbVFartivsDN%2FxGgAIIjtABAYfzYPqTCpLf3gb0nW3h%2FTrPFLMhAdNcVvHD0Gz4FkRj5jRAD1aAGQ
   ```
   
 * **Sample POST:**
@@ -138,9 +142,9 @@
   ```HTML
     <form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
        <input type="hidden" name="method" value="getStudentSubjects">
-       <input type="hidden" name="appcode" value="DEMOSD">
+       <input type="hidden" name="appcode" value="API03">
        <input type="hidden" name="company" value="10">
-       <input type="hidden" name="v" value="2">
+       <input type="hidden" name="v" value="3">
        <textarea name="token">l1D8owEn111IHcXLRwXTB0oU2GX6rj+ISqa9zXA8We1Gqx9/zb+cbVFartivsDN/xGgAIIjtABAYfzYPqTCpLf3gb0nW3h/TrPFLMhAdNcVvHD0Gz4FkRj5jRAD1aAGQ</textarea>
     </form>
   ```
