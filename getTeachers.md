@@ -37,45 +37,36 @@
 * **Success Response:**
 
     ```javascript
-      "teachers": [
-        {
-          "surname": "O'Johnstonex",
-          "active_flag": "Y",
-          "email_address": "tammy.sloman@yahoo.com.au",
-          "salutation": "Mr",
-          "department": "ART,ENG,HIS,MUS,OTH,SOC",
-          "portal_user_code": "ajohnstone",
-          "school_email_address": "tammy.sloman@tassweb.com.au",
-          "teacher_photo": {
-            "file_info": {
-              "image": "[Base64 encoded image string]",
-              "file_name": "1000016.jpg",
-              "mime_type": "image\/jpeg"
+      {
+        "teachers": [
+              {
+                "surname": "Allan",
+                "active_flag": "Y",
+                "email_address": "C.Allan@alphabus.com.au",
+                "salutation": "Capt",
+                "department": "OTH",
+                "portal_user_code": "",
+                "school_email_address": "Cody.Allan@alphabus.com.au",
+                "teacher_photo": {
+                "file_info": {
+                      "image": "[Base64 encoded image string]",
+                      "file_name": "Unavailable.gif",
+                      "mime_type": "image/gif"
+                }
+              },
+              "employee_code": 9000001,
+              "teacher_code": "CAL",
+              "given_names": "Cody Ethan"
               }
-          },
-          "teacher_code": "AJ",
-          "given_names": "Alan Pierre"
-        }, 
-        {
-          "surname": "Page",
-          "active_flag": "Y",
-          "email_address": "A.Page@alphabus.com.au",
-          "salutation": "Ms",
-          "department": "ART,DEP",
-          "portal_user_code": "",
-          "school_email_address": "Ariel.Page@alphabus.com.au",
-          "teacher_photo": {
-            "file_info": {
-              "image": "[Base64 encoded image string]",
-              "file_name": "Unavailable.gif",
-              "mime_type": "image\/gif"
-            }
-          },
-          "teacher_code": "APA",
-          "employee_code": "1000043",
-          "given_names": "Ariel Lynne"
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-21 14:42:22'}",
+            "includephoto": true,
+            "thumbnail": false,
+            "currentstatus": "current"
         }
-      ]
+      }
     ```
  
 * **Error Response:**

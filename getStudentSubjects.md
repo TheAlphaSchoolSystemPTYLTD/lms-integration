@@ -36,66 +36,42 @@
 
     ```javascript
       {
-        "0009080": [
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "ANCH20",
-            "from_date": "",
-            "sub_short": "AnHist",
-            "year_grp": 11,
-            "year_num": 2018,
-            "to_date": "",
-            "student_code": "0009080",
-            "sub_long": "Ancient History",
-            "class": "A",
-            "sub_type": "COR"
-          },
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "0080",
-            "from_date": "",
-            "sub_short": "Art",
-            "year_grp": 11,
-            "year_num": 2018,
-            "to_date": "",
-            "student_code": "0009080",
-            "sub_long": "Art AR Desc",
-            "class": "C",
-            "sub_type": "ELE"
-          },
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "ASSEMBLY",
-            "from_date": "",
-            "sub_short": "ASSEMB",
-            "year_grp": 11,
-            "year_num": 2018,
-            "to_date": "",
-            "student_code": "0009080",
-            "sub_long": "School Assembly",
-            "class": "A",
-            "sub_type": "NON"
-          }
+        "0009112": [
+              {
+                "sub_code": "0080",
+                "from_date": "",
+                "sub_short": "Art",
+                "to_date": "",
+                "student_code": "0009112",
+                "sub_long": "Art AR Desc",
+                "class": "A",
+                "sub_type": "ELE",
+                "semester": 2,
+                "year_grp_desc": 10,
+                "year_grp": 10,
+                "year_num": 2020
+              },
+              {
+                "sub_code": 2204,
+                "from_date": "",
+                "sub_short": "IDT",
+                "to_date": "",
+                "student_code": "0009112",
+                "sub_long": "Digital Technologies",
+                "class": "A",
+                "sub_type": "ELE",
+                "semester": 2,
+                "year_grp_desc": 10,
+                "year_grp": 10,
+                "year_num": 2020
+              }
         ],
-        "0009704": [
-          {
-          "semester": 1,
-          "year_grp_desc": 6,
-          "sub_code": "ASSEMBLY",
-          "from_date": "",
-          "sub_short": "ASSEMB",
-          "year_grp": 6,
-          "year_num": 2018,
-          "to_date": "",
-          "student_code": "0009704",
-          "sub_long": "School Assembly",
-          "class": "A",
-          "sub_type": "NON"
-          }
-        ]
+        "__tassversion": "01.053.3.000",
+        "token": {
+          "code": "0009112",
+          "timestamp": "{ts '2021-01-21 14:27:51'}",
+          "lmsflag": "Y"
+        }
       }
     ```
  
@@ -126,7 +102,7 @@
 
   ```javascript
     { 
-      "code":"0009080",
+      "code":"0009112",
       "lmsflag":"Y"
     }
   ```

@@ -35,16 +35,23 @@
 * **Success Response:**
 
     ```javascript
-    "campuses": [
-    {
-      "code": "JU",
-      "desc": "Junior School (Billabong Rd)"
-    },
-    {
-      "code": "SE",
-      "desc": "Senior School (Curlew St)"
-    }
-  ]
+      {
+        "campuses": [
+            {
+              "code": "JU",
+              "desc": "Junior School (Billabong Road)"
+            },
+            {
+              "code": "SE",
+              "desc": "Senior School (Curlew St)"
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-21 12:20:23'}",
+            "codeonly": false
+        }
+      }
     ```
  
 * **Error Response:**
@@ -62,9 +69,7 @@
 * **Sample Parameters:**
 
   ```javascript
-  {
-    "codeonly":"false"
-  }
+  {"codeonly":"false"}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

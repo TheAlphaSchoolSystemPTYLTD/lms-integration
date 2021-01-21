@@ -35,285 +35,108 @@
 * **Success Response:**
 
     ```javascript
-      {
-        "student_timetable":[
+    {
+        "student_timetable": [
             {
-                "HSE_CODE":"AC",
-                "DESC_TEXT":"Senior Timetable 2019 S2",
-                "HSE_NAME":"Acacia",
-                "DAYS":{
-                    "1":{
-                        "PERIODS":{
-                            "1":{
-                                "SUBJECTS":[
-                                    {
-                                        "SUB_CODE":"ASSEMBLY",
-                                        "FROM_DATE":"",
-                                        "SUB_SHORT":"ASSEMB",
-                                        "HASOVERRIDE":0,
-                                        "ROOM_CODE":"LIB",
-                                        "TO_DATE":"",
-                                        "TCH_CODE":"JSH",
-                                        "SUBTAB_YEAR_GRP_DESC":"",
-                                        "CLASS":"A",
-                                        "YEAR_GRP":11,
-                                        "TT_PRIORITY":999,
-                                        "SUB_DESC":"ASSEMBLY",
-                                        "SUB_ABREV":"",
-                                        "LINE_CODE":"",
-                                        "SUBTAB_YEAR_GRP":"",
-                                        "DATE_RANGE":""
-                                    },
-                                    {
-                                        "SUB_CODE":"HOME9997",
-                                        "FROM_DATE":"",
-                                        "SUB_SHORT":"HMR",
-                                        "HASOVERRIDE":0,
-                                        "ROOM_CODE":"A4",
-                                        "TO_DATE":"",
-                                        "TCH_CODE":"AJ",
-                                        "SUBTAB_YEAR_GRP_DESC":"",
-                                        "CLASS":"A",
-                                        "YEAR_GRP":11,
-                                        "TT_PRIORITY":999,
-                                        "SUB_DESC":"Home Room",
-                                        "SUB_ABREV":"HMR",
-                                        "LINE_CODE":"",
-                                        "SUBTAB_YEAR_GRP":"",
-                                        "DATE_RANGE":""
-                                    }
-                                ],
-                                "PRD_END":"1900-01-01 09:29:00.0",
-                                "PRD_CODE":1,
-                                "PRD_START":"1900-01-01 08:00:00.0",
-                                "PRD_DESC":"Pastoral Care"
+                "HSE_CODE": "AC",
+                "DESC_TEXT": "Senior Timetable 2020 S2",
+                "HSE_NAME": "Acacia",
+                "DAYS": {
+                        "2": {
+                            "PERIODS": {
+                                        "3": {
+                                            "SUBJECTS": [
+                                                        {
+                                                            "SUB_CODE": "0001",
+                                                            "FROM_DATE": "",
+                                                            "SUB_SHORT": "Goat",
+                                                            "HASOVERRIDE": 0,
+                                                            "ROOM_CODE": "A1",
+                                                            "TO_DATE": "",
+                                                            "TCH_CODE": "AJ,BBE",
+                                                            "SUBTAB_YEAR_GRP_DESC": "PK",
+                                                            "CLASS": "A",
+                                                            "YEAR_GRP": 11,
+                                                            "TT_PRIORITY": 999,
+                                                            "SUB_DESC": "English",
+                                                            "SUB_ABREV": "ENG",
+                                                            "LINE_CODE": "",
+                                                            "SUBTAB_YEAR_GRP": -1,
+                                                            "DATE_RANGE": ""
+                                                        }
+                                            ],
+                                            "PRD_END": "1900-01-01 11:29:00.0",
+                                            "PRD_CODE": 3,
+                                            "PRD_START": "1900-01-01 10:30:00.0",
+                                            "PRD_DESC": "Lesson 2"
+                                            },
+                                        "4": {
+                                            "SUBJECTS": [
+                                                        {
+                                                            "SUB_CODE": "0001",
+                                                            "FROM_DATE": "",
+                                                            "SUB_SHORT": "Goat",
+                                                            "HASOVERRIDE": 0,
+                                                            "ROOM_CODE": "P1",
+                                                            "TO_DATE": "",
+                                                            "TCH_CODE": "AJ",
+                                                            "SUBTAB_YEAR_GRP_DESC": "PK",
+                                                            "CLASS": "A",
+                                                            "YEAR_GRP": 11,
+                                                            "TT_PRIORITY": 999,
+                                                            "SUB_DESC": "English",
+                                                            "SUB_ABREV": "ENG",
+                                                            "LINE_CODE": "",
+                                                            "SUBTAB_YEAR_GRP": -1,
+                                                            "DATE_RANGE": ""
+                                                        }
+                                            ],
+                                            "PRD_END": "1900-01-01 12:29:00.0",
+                                            "PRD_CODE": 4,
+                                            "PRD_START": "1900-01-01 11:30:00.0",
+                                            "PRD_DESC": "Lesson 3"
+                                        }
+                            
                             }
                         }
-                    }
                 },
-                "PERIODMIN":1,
-                "DAYMAX":10,
-                "SEMESTER":2,
-                "DAYMIN":1,
-                "PCTUT_GRP":"A3",
-                "YEAR_GRP":11,
-                "ARRLINES":[
-
-                ],
-                "YEAR_NUM":2019,
-                "STRDAYS":{
-                    "1":{
-                        "PERIODS":{
-                            "1":{
-                                "PRD_END":"1900-01-01 09:29:00.0",
-                                "PRD_START":"1900-01-01 08:00:00.0",
-                                "PRD_DESC":"Pastoral Care"
-                            },
-                            "2":{
-                                "PRD_END":"1900-01-01 10:20:00.0",
-                                "PRD_START":"1900-01-01 09:30:00.0",
-                                "PRD_DESC":"Lesson 1"
-                            },
-                            "3":{
-                                "PRD_END":"1900-01-01 11:29:00.0",
-                                "PRD_START":"1900-01-01 10:30:00.0",
-                                "PRD_DESC":"Lesson 2"
-                            },
-                            "4":{
-                                "PRD_END":"1900-01-01 12:29:00.0",
-                                "PRD_START":"1900-01-01 11:30:00.0",
-                                "PRD_DESC":"Lesson 3"
-                            },
-                            "5":{
-                                "PRD_END":"1900-01-01 13:29:00.0",
-                                "PRD_START":"1900-01-01 12:30:00.0",
-                                "PRD_DESC":"Lesson 4"
-                            },
-                            "6":{
-                                "PRD_END":"1900-01-01 14:29:00.0",
-                                "PRD_START":"1900-01-01 13:30:00.0",
-                                "PRD_DESC":"Lesson 5"
-                            },
-                            "7":{
-                                "PRD_END":"1900-01-01 17:00:00.0",
-                                "PRD_START":"1900-01-01 14:30:00.0",
-                                "PRD_DESC":"Lesson 6"
+                "PERIODMIN": 1,
+                "DAYMAX": 10,
+                "SEMESTER": 2,
+                "DAYMIN": 1,
+                "PCTUT_GRP": "A3",
+                "YEAR_GRP": 11,
+                "ARRLINES": [],
+                "YEAR_NUM": 2020,
+                "STRDAYS": {
+                            "1": {
+                                "PERIODS": {
+                                            "1": {
+                                                "PRD_END": "1900-01-01 09:29:00.0",
+                                                "PRD_START": "1900-01-01 08:00:00.0",
+                                                "PRD_DESC": "Pastoral Care"
+                                            },
+                                            "2": {
+                                                "PRD_END": "1900-01-01 10:20:00.0",
+                                                "PRD_START": "1900-01-01 09:30:00.0",
+                                                "PRD_DESC": "Lesson 1"
+                                            }
+                                },
+                                "DAY_DESC": "Monday A"
                             }
-                        },
-                        "DAY_DESC":"Monday A"
-                    },
-                    "2":{
-                        "PERIODS":{
-                            "1":{
-                                "PRD_END":"1900-01-01 10:27:00.0",
-                                "PRD_START":"1900-01-01 08:30:00.0",
-                                "PRD_DESC":"Pastoral Care"
-                            },
-                            "2":{
-                                "PRD_END":"1900-01-01 10:29:00.0",
-                                "PRD_START":"1900-01-01 10:28:00.0",
-                                "PRD_DESC":"Lesson 1"
-                            },
-                            "3":{
-                                "PRD_END":"1900-01-01 11:29:00.0",
-                                "PRD_START":"1900-01-01 10:30:00.0",
-                                "PRD_DESC":"Lesson 2"
-                            },
-                            "4":{
-                                "PRD_END":"1900-01-01 12:29:00.0",
-                                "PRD_START":"1900-01-01 11:30:00.0",
-                                "PRD_DESC":"Lesson 3"
-                            },
-                            "5":{
-                                "PRD_END":"1900-01-01 13:29:00.0",
-                                "PRD_START":"1900-01-01 12:30:00.0",
-                                "PRD_DESC":"Lesson 4"
-                            },
-                            "6":{
-                                "PRD_END":"1900-01-01 15:00:00.0",
-                                "PRD_START":"1900-01-01 13:30:00.0",
-                                "PRD_DESC":"Lesson 5"
-                            },
-                            "7":{
-                                "PRD_END":"1900-01-01 17:29:00.0",
-                                "PRD_START":"1900-01-01 16:50:00.0",
-                                "PRD_DESC":"Lesson 6"
-                            }
-                        },
-                        "DAY_DESC":"Tuesday A"
-                    },
-                    "3":{
-                        "PERIODS":{
-                            "1":{
-                                "PRD_END":"1900-01-01 09:28:00.0",
-                                "PRD_START":"1900-01-01 08:30:00.0",
-                                "PRD_DESC":"Before L1"
-                            },
-                            "2":{
-                                "PRD_END":"1900-01-01 10:29:00.0",
-                                "PRD_START":"1900-01-01 09:30:00.0",
-                                "PRD_DESC":"Lesson 1"
-                            },
-                            "3":{
-                                "PRD_END":"1900-01-01 11:29:00.0",
-                                "PRD_START":"1900-01-01 10:30:00.0",
-                                "PRD_DESC":"Lesson 2"
-                            },
-                            "4":{
-                                "PRD_END":"1900-01-01 12:29:00.0",
-                                "PRD_START":"1900-01-01 11:30:00.0",
-                                "PRD_DESC":"Lesson 3"
-                            },
-                            "5":{
-                                "PRD_END":"1900-01-01 13:29:00.0",
-                                "PRD_START":"1900-01-01 12:30:00.0",
-                                "PRD_DESC":"Lesson 4"
-                            },
-                            "6":{
-                                "PRD_END":"1900-01-01 14:29:00.0",
-                                "PRD_START":"1900-01-01 13:30:00.0",
-                                "PRD_DESC":"Lesson 5"
-                            },
-                            "7":{
-                                "PRD_END":"1900-01-01 15:29:00.0",
-                                "PRD_START":"1900-01-01 14:30:00.0",
-                                "PRD_DESC":"Lesson 6"
-                            }
-                        },
-                        "DAY_DESC":"Wednesday A"
-                    },
-                    "4":{
-                        "PERIODS":{
-                            "1":{
-                                "PRD_END":"1900-01-01 09:29:00.0",
-                                "PRD_START":"1900-01-01 08:30:00.0",
-                                "PRD_DESC":"Pastoral Care"
-                            },
-                            "2":{
-                                "PRD_END":"1900-01-01 10:29:00.0",
-                                "PRD_START":"1900-01-01 09:30:00.0",
-                                "PRD_DESC":"Lesson 1"
-                            },
-                            "3":{
-                                "PRD_END":"1900-01-01 11:29:00.0",
-                                "PRD_START":"1900-01-01 10:30:00.0",
-                                "PRD_DESC":"Lesson 2"
-                            },
-                            "4":{
-                                "PRD_END":"1900-01-01 12:29:00.0",
-                                "PRD_START":"1900-01-01 11:30:00.0",
-                                "PRD_DESC":"Lesson 3"
-                            },
-                            "5":{
-                                "PRD_END":"1900-01-01 13:29:00.0",
-                                "PRD_START":"1900-01-01 12:30:00.0",
-                                "PRD_DESC":"Lesson 4"
-                            },
-                            "6":{
-                                "PRD_END":"1900-01-01 14:29:00.0",
-                                "PRD_START":"1900-01-01 13:30:00.0",
-                                "PRD_DESC":"Lesson 5"
-                            },
-                            "7":{
-                                "PRD_END":"1900-01-01 17:29:00.0",
-                                "PRD_START":"1900-01-01 14:30:00.0",
-                                "PRD_DESC":"Lesson 6"
-                            }
-                        },
-                        "DAY_DESC":"Thursday A"
-                    },
-                    "5":{
-                        "PERIODS":{
-                            "1":{
-                                "PRD_END":"1900-01-01 09:29:00.0",
-                                "PRD_START":"1900-01-01 08:30:00.0",
-                                "PRD_DESC":"Pastoral Care"
-                            },
-                            "2":{
-                                "PRD_END":"1900-01-01 10:29:00.0",
-                                "PRD_START":"1900-01-01 09:30:00.0",
-                                "PRD_DESC":"Lesson 1"
-                            },
-                            "3":{
-                                "PRD_END":"1900-01-01 11:29:00.0",
-                                "PRD_START":"1900-01-01 10:30:00.0",
-                                "PRD_DESC":"Lesson 2"
-                            },
-                            "4":{
-                                "PRD_END":"1900-01-01 12:29:00.0",
-                                "PRD_START":"1900-01-01 11:30:00.0",
-                                "PRD_DESC":"Lesson 3"
-                            },
-                            "5":{
-                                "PRD_END":"1900-01-01 13:29:00.0",
-                                "PRD_START":"1900-01-01 12:30:00.0",
-                                "PRD_DESC":"Lesson 4"
-                            },
-                            "6":{
-                                "PRD_END":"1900-01-01 14:29:00.0",
-                                "PRD_START":"1900-01-01 13:30:00.0",
-                                "PRD_DESC":"Lesson 5"
-                            },
-                            "7":{
-                                "PRD_END":"1900-01-01 17:29:00.0",
-                                "PRD_START":"1900-01-01 14:30:00.0",
-                                "PRD_DESC":"Lesson 6"
-                            }
-                        },
-                        "DAY_DESC":"Friday A"
-                    }
                 },
-                "FORM_CLS":"B",
-                "ENTITYCODE":"89_0009110",
-                "TT_ID":89,
-                "ENTITYNAME":"0009110 - Bolt, Julian",
-                "PERIODMAX":7,
-                "STUD_YEAR_GRP":11
+                "FORM_CLS": "A",
+                "ENTITYCODE": "93_0009110",
+                "TT_ID": 93,
+                "ENTITYNAME": "0009110 - Bolt, Julian",
+                "PERIODMAX": 7,
+                "STUD_YEAR_GRP": 11
             }
         ],
-        "token":{
-            "timestamp":"{ts '2020-02-28 10:15:37'}",
-            "student_code":"0009110"
+        "__tassversion": "01.053.3.000",
+        "token": {
+                "timestamp": "{ts '2021-01-21 14:30:46'}",
+                "student_code": "0009110"
         }
     }
     ```

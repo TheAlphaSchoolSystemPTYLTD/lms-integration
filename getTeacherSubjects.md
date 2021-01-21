@@ -36,62 +36,40 @@
 
     ```javascript
       {
-        "AC": [
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "0001",
-            "sub_short": "Goat",
-            "year_grp": 11,
-            "year_num": 2018,
-            "sub_long": "English",
-            "class": "A",
-            "sub_type": "VET",
-            "teacher_code": "AC",
-            "employee_code": "1000055"
-          }
-        ],
         "AJ": [
-          {
-            "semester": 1,
-            "year_grp_desc": -1,
-            "sub_code": "0001",
-            "sub_short": "Goat",
-            "year_grp": -1,
-            "year_num": 2018,
-            "sub_long": "English",
-            "class": "A",
-            "sub_type": "VET",
-            "teacher_code": "AJ",
-            "employee_code": "1000043"
-          },
-          {
-            "semester": 1,
-            "year_grp_desc": 3,
-            "sub_code": "0001",
-            "sub_short": "Goat",
-            "year_grp": 3,
-            "year_num": 2018,
-            "sub_long": "English",
-            "class": "A",
-            "sub_type": "VET",
-            "teacher_code": "AJ",
-            "employee_code": "1000043"
-          },
-          {
-            "semester": 1,
-            "year_grp_desc": 11,
-            "sub_code": "0001",
-            "sub_short": "Goat",
-            "year_grp": 11,
-            "year_num": 2018,
-            "sub_long": "English",
-            "class": "A",
-            "sub_type": "VET",
-            "teacher_code": "AJ",
-            "employee_code": "1000043"
-          }
-        ]
+            {
+              "semester": 2,
+              "year_grp_desc": 11,
+              "sub_code": "0060",
+              "sub_short": "Acct",
+              "year_grp": 11,
+              "year_num": 2020,
+              "sub_long": "Accounting 1",
+              "class": "A",
+              "employee_code": 1000016,
+              "sub_type": "COR",
+              "teacher_code": "AJ"
+            },
+            {
+              "semester": 2,
+              "year_grp_desc": 8,
+              "sub_code": "ANCH20",
+              "sub_short": "AnHist",
+              "year_grp": 8,
+              "year_num": 2020,
+              "sub_long": "Ancient History",
+              "class": "A",
+              "employee_code": 1000016,
+              "sub_type": "COR",
+              "teacher_code": "AJ"
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+                "code": "AJ",
+                "timestamp": "{ts '2021-01-21 14:46:22'}",
+                "lmsflag": "Y"
+        }
       }
     ```
  
