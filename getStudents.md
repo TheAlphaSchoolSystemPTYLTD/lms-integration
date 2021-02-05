@@ -37,65 +37,75 @@
 * **Success Response:**
 
     ```javascript
-      "students": [
-        {
-          "general_details": {
-            "surname": "Angus",
-            "first_name": "Paul",
-            "other_name": "",
-            "preferred_surname": "Angus",
-            "next_year_indicator": "Advancing",
-            "date_of_leaving": "",
-            "student_code": 20073,
-            "usi": "",
-            "mobile_phone": "",
-            "lui_number": "",
-            "entry_year_group": 8,
-            "religion": "Anglican",
-            "preferred_name": "Paul",
-            "gender": "Male",
-            "date_of_entry": "19/01/1998",
-            "portal_user_code":"pangus"
-            "student_photo": {
-              "file_info": {
-                "image": "[Base64 encoded image string]",
-                "file_name": "tn_20073.jpg",
-                "mime_type": "image/jpeg"
+      {
+        "students": [
+            {
+              "general_details": {
+                        "surname": "Agnew",
+                        "next_year_indicator": "Advancing",
+                        "date_of_leaving": "",
+                        "student_code": "0009069",
+                        "usi": "000906910",
+                        "portal_user_code": "",
+                        "preferred_surname": "Agnew",
+                        "first_name": "Edith Nell Blue Healer Bitzer",
+                        "mobile_phone": "0412016500",
+                        "entry_year_group": 8,
+                        "religion": "Baptist",
+                        "preferred_name": "Edie",
+                        "other_name": "Edith Nell Other Bell Nell",
+                        "gender": "",
+                        "date_of_entry": "30/11/1994",
+                        "date_of_birth": "02/05/1988",
+                        "alternate_id": "",
+                        "given_names": "Edith Nell Blue Healer Bitzer Edith Nell Other Bell Nell"
+              },
+              "school_details": {
+                        "campus": "Senior School (Curlew St)",
+                        "email_address": "agnew2@alphabus.com.au",
+                        "pc_tutor_group": "AS",
+                        "boarder": "No",
+                        "student_cafe_access": "Yes",
+                        "house": "Acacia",
+                        "year_group": 11,
+                        "form_class": "",
+                        "residency_status": "Australian Citizen"
+              },
+              "other_school_details": {
+                        "nationality": "American",
+                        "early_depature": "Y",
+                        "parish": "Chermside",
+                        "learning_problems": "Y",
+                        "extra_tuition": "Y",
+                        "returning_student": "Y",
+                        "medical_condition": "Asthmatic",
+                        "sprecken_sie_deutche": "Y",
+                        "campus": "Argyle St",
+                        "alpha_code": "ABCD",
+                        "locker_number": 1234,
+                        "private_insurance": "Y",
+                        "lives_with": "Boarding House",
+                        "bus_route": "Doncaster",
+                        "country_of_birth": "Australia",
+                        "passport_number/date": 1234,
+                        "rail_station": "Central",
+                        "visa_number/date": 1234,
+                        "residential_house": "Bell",
+                        "late_arrival": "Y",
+                        "repeat_year": "N",
+                        "aaspa_address": "Y",
+                        "address_home": 1234,
+                        "external_tuition": "Y",
+                        "application_date": 1234
               }
-            },
-            "date_of_birth": "15/10/1994",
-            "alternate_id": "098765432",
-            "given_names": "Paul"
-          },
-          "school_details": {
-            "campus": "Senior School (Curlew St)",
-            "email_address": "angu001@tassweb.com.au",
-            "pc_tutor_group": "A1",
-            "boarder": "Yes",
-            "student_cafe_access": "No",
-            "house": "Banksia",
-            "year_group": 11,
-            "form_class": "A",
-            "residency_status": "Overseas Student"
-          },
-          "other_school_details": {
-            "parish": "Chermside",
-            "library_card_no.": "",
-            "support_teacher_req.": "N",
-            "scholarship": "",
-            "returning_student": "Y",
-            "media_consent": "Y",
-            "learning_support": "N",
-            "locker_number": "",
-            "reason_for_leaving": "",
-            "licence_plate": "",
-            "external_tuition": "N",
-            "international_stud.": "",
-            "drivers_licence": "",
-            "diet_restrictions": ""
-          }
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+              "timestamp": "{ts '2021-01-21 14:18:27'}",
+              "currentstatus": "current"
         }
-      ]
+      }
     ```
 
     The State based Student numbers are returned based on the state code of the school.
@@ -139,11 +149,7 @@
 * **Sample Parameters:**
 
   ```javascript
-    { 
-      "currentstatus":"current",
-      "includephoto":"true",
-      "thumbnail":"true"
-    }
+    {"currentstatus":"current"}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)
