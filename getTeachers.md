@@ -39,27 +39,31 @@
     ```javascript
       {
         "teachers": [
-              {
-                "surname": "Allan",
-                "active_flag": "Y",
-                "email_address": "C.Allan@alphabus.com.au",
-                "salutation": "Capt",
-                "department": "OTH",
-                "portal_user_code": "",
-                "school_email_address": "Cody.Allan@alphabus.com.au",
-                "teacher_photo": {
-                "file_info": {
-                      "image": "[Base64 encoded image string]",
-                      "file_name": "Unavailable.gif",
-                      "mime_type": "image/gif"
-                }
+             {
+              "surname": "Abbott",
+              "active_flag": "Y",
+              "teacher_name": "Mr J Abbott",
+              "department": "MAT",
+              "portal_user_code": "",
+              "teacher_photo": {
+              "file_info": {
+              "image": "[Base64 encoded image string]",
+              "file_name": "Unavailable.jpg",
+              "mime_type": "image/jpeg"
+              }
               },
-              "employee_code": 9000001,
-              "teacher_code": "CAL",
-              "given_names": "Cody Ethan"
+              "employee_code": "ABBOT01",
+              "teacher_code": "JAB",
+              "first_name": "James",
+              "email_address": "",
+              "salutation": "Mr",
+              "preferred_name": "Jim",
+              "other_name": "",
+              "school_email_address": "Jabbott@alphabus.com.au",
+              "given_names": "James"
               }
         ],
-        "__tassversion": "01.053.3.000",
+        "__tassversion": "01.053.3.138",
         "token": {
             "timestamp": "{ts '2021-01-21 14:42:22'}",
             "includephoto": true,
