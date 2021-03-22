@@ -64,7 +64,7 @@
               "preferred_name": "Jim",
               "other_name": "cook",
               "school_email_address": "Jabbott@alphabus.com.au",
-              "given_names": "James"
+              "given_names": "James cook"
               }
         ],
         "__tassversion": "01.053.3.138",
