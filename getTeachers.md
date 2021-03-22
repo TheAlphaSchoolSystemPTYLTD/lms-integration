@@ -5,6 +5,10 @@
 * **Version History:**
 
   TASS v52.5 - Method Added
+  
+  TASS v53.3 (PR7) -  first_name, other_name, preferred_name and teacher_name have been added
+  
+  TASS v54.3 (PR1) -  first_name, other_name, preferred_name and teacher_name have been added
 
 * **Version:**
 
@@ -58,7 +62,7 @@
               "email_address": "",
               "salutation": "Mr",
               "preferred_name": "Jim",
-              "other_name": "",
+              "other_name": "cook",
               "school_email_address": "Jabbott@alphabus.com.au",
               "given_names": "James"
               }
