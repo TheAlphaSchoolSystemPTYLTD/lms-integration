@@ -14,7 +14,7 @@
 
 * **Permission:**
 
-  Teacher Records > Teachers > Viewub
+  Teacher Records > Teachers > View
 
 * **Method:**
 
