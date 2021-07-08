@@ -6,13 +6,15 @@
 
   TASS v52.5 - Method Added
 
+  TASS v55.2 - Enhancement to include "pc_tutor_group" from teacher table
+
 * **Version:**
 
   3
 
 * **Permission:**
 
-  Teacher Records > Teachers > View
+  Teacher Records > Teachers > Viewub
 
 * **Method:**
 
@@ -37,45 +39,41 @@
 * **Success Response:**
 
     ```javascript
-      "teachers": [
+    {
+      "__tassversion":"01.054.4.000",
+      "teachers":[
         {
-          "surname": "O'Johnstonex",
-          "active_flag": "Y",
-          "email_address": "tammy.sloman@yahoo.com.au",
-          "salutation": "Mr",
-          "department": "ART,ENG,HIS,MUS,OTH,SOC",
-          "portal_user_code": "ajohnstone",
-          "school_email_address": "tammy.sloman@tassweb.com.au",
-          "teacher_photo": {
-            "file_info": {
+          "surname":"Allibone",
+          "active_flag":"Y",
+          "teacher_name":"Mr N A'llibone",
+          "pc_tutor_group":"",
+          "department":"LAN",
+          "portal_user_code":"",
+          "teacher_photo":{
+            "file_info":{
               "image": "[Base64 encoded image string]",
-              "file_name": "1000016.jpg",
-              "mime_type": "image\/jpeg"
-              }
-          },
-          "teacher_code": "AJ",
-          "given_names": "Alan Pierre"
-        }, 
-        {
-          "surname": "Page",
-          "active_flag": "Y",
-          "email_address": "A.Page@alphabus.com.au",
-          "salutation": "Ms",
-          "department": "ART,DEP",
-          "portal_user_code": "",
-          "school_email_address": "Ariel.Page@alphabus.com.au",
-          "teacher_photo": {
-            "file_info": {
-              "image": "[Base64 encoded image string]",
-              "file_name": "Unavailable.gif",
-              "mime_type": "image\/gif"
+              "file_name":"1000066.jpg",
+              "mime_type":"image/jpeg"
             }
           },
-          "teacher_code": "APA",
-          "employee_code": "1000043",
-          "given_names": "Ariel Lynne"
+          "employee_code":1000066,
+          "teacher_code":"NA1",
+          "first_name":"Nikola",
+          "email_address":"tester@example.com",
+          "salutation":"Assoc. Prof",
+          "preferred_name":"Niki",
+          "other_name":"Craig",
+          "school_email_address":"Nikola.Allibone@alphabus.com.aubnm",
+          "given_names":"Nikola Craig"
         }
-      ]
+      ],
+      "token":{
+        "timestamp":"{ts '2021-07-08 12:20:25'}",
+        "includephoto":true,
+        "thumbnail":false,
+        "currentstatus":"current"
+      }
+    }
     ```
  
 * **Error Response:**
