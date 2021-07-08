@@ -10,6 +10,8 @@
   
   TASS v54.3 (PR1) -  first_name, other_name, preferred_name and teacher_name have been added
 
+  TASS v54.4 - Enhancement to include "pc_tutor_group" in the result
+
 * **Version:**
 
   3
@@ -41,40 +43,41 @@
 * **Success Response:**
 
     ```javascript
-      {
-        "teachers": [
-             {
-              "surname": "Abbott",
-              "active_flag": "Y",
-              "teacher_name": "Mr J Abbott",
-              "department": "MAT",
-              "portal_user_code": "",
-              "teacher_photo": {
-              "file_info": {
+    {
+      "__tassversion":"01.054.4.000",
+      "teachers":[
+        {
+          "surname":"Allibone",
+          "active_flag":"Y",
+          "teacher_name":"Mr N A'llibone",
+          "pc_tutor_group":"",
+          "department":"LAN",
+          "portal_user_code":"",
+          "teacher_photo":{
+            "file_info":{
               "image": "[Base64 encoded image string]",
-              "file_name": "Unavailable.jpg",
-              "mime_type": "image/jpeg"
-              }
-              },
-              "employee_code": "ABBOT01",
-              "teacher_code": "JAB",
-              "first_name": "James",
-              "email_address": "",
-              "salutation": "Mr",
-              "preferred_name": "Jim",
-              "other_name": "cook",
-              "school_email_address": "Jabbott@alphabus.com.au",
-              "given_names": "James cook"
-              }
-        ],
-        "__tassversion": "01.053.3.138",
-        "token": {
-            "timestamp": "{ts '2021-01-21 14:42:22'}",
-            "includephoto": true,
-            "thumbnail": false,
-            "currentstatus": "current"
+              "file_name":"1000066.jpg",
+              "mime_type":"image/jpeg"
+            }
+          },
+          "employee_code":1000066,
+          "teacher_code":"NA1",
+          "first_name":"Nikola",
+          "email_address":"tester@example.com",
+          "salutation":"Assoc. Prof",
+          "preferred_name":"Niki",
+          "other_name":"Craig",
+          "school_email_address":"Nikola.Allibone@alphabus.com.aubnm",
+          "given_names":"Nikola Craig"
         }
+      ],
+      "token":{
+        "timestamp":"{ts '2021-07-08 12:20:25'}",
+        "includephoto":true,
+        "thumbnail":false,
+        "currentstatus":"current"
       }
+    }
     ```
  
 * **Error Response:**
