@@ -36,35 +36,36 @@
 
     ```javascript
       {
-        "tt_calendar":[
-            {
-                "CAT_NUM":"",
-                "CMPY_CODE":10,
-                "TTDATE":"2019-07-01 00:00:00.0",
-                "RECORD_ID":135902,
-                "LABEL":"Mon 01/07/2019",
-                "ID":"89-2019-07-01",
-                "TABLE_ID":"ttcalendar",
-                "VALUE":"2019-07-01",
-                "TT_ID":89,
-                "DAY_CODE":1
-            },
-            {
-                "CAT_NUM":"",
-                "CMPY_CODE":10,
-                "TTDATE":"2019-07-02 00:00:00.0",
-                "RECORD_ID":135903,
-                "LABEL":"Tue 02/07/2019",
-                "ID":"89-2019-07-02",
-                "TABLE_ID":"ttcalendar",
-                "VALUE":"2019-07-02",
-                "TT_ID":89,
-                "DAY_CODE":2
-            }
+        "tt_calendar": [
+                {
+                  "CAT_NUM": "",
+                  "CMPY_CODE": 10,
+                  "TTDATE": "2019-07-05 00:00:00.0",
+                  "RECORD_ID": 136447,
+                  "LABEL": "Fri 05/07/2019",
+                  "ID": "89-2019-07-05",
+                  "TABLE_ID": "ttcalendar",
+                  "VALUE": "2019-07-05",
+                  "TT_ID": 89,
+                  "DAY_CODE": 5
+                },
+                {
+                  "CAT_NUM": "",
+                  "CMPY_CODE": 10,
+                  "TTDATE": "2019-07-07 00:00:00.0",
+                  "RECORD_ID": 136449,
+                  "LABEL": "Sun 07/07/2019",
+                  "ID": "89-2019-07-07",
+                  "TABLE_ID": "ttcalendar",
+                  "VALUE": "2019-07-07",
+                  "TT_ID": 89,
+                  "DAY_CODE": ""
+                }
         ],
-        "token":{
-            "timestamp":"{ts '2020-02-28 12:16:39'}",
-            "tt_id":89
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-21 15:21:20'}",
+            "tt_id": 89
         }
       }
     ```

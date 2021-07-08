@@ -38,44 +38,45 @@
 
     ```javascript
       {
-        "timetables":[
-            {
-                "sub_code":9998,
-                "room_code":"A1",
-                "tch_code":"RY",
-                "prd_code":7,
-                "table_id":"ttmast",
-                "class":"A",
-                "day_code":1,
-                "semester":1,
-                "year_grp_desc":8,
-                "year_grp":8,
-                "year_num":2019,
-                "record_id":232326,
-                "id":"1_87_2019_1_1_7_9998_8_A_RY_A1",
-                "tt_id":87
-            },
-            {
-                "sub_code":"0028",
-                "room_code":"D1",
-                "tch_code":"AMC",
-                "prd_code":7,
-                "table_id":"ttmast",
-                "class":"E",
-                "day_code":1,
-                "semester":1,
-                "year_grp_desc":10,
-                "year_grp":10,
-                "year_num":2019,
-                "record_id":231936,
-                "id":"2_87_2019_1_1_7_0028_10_E_AMC_D1",
-                "tt_id":87
-            }
+        "timetables": [
+              {
+                "sub_code": "0001",
+                "room_code": "001",
+                "tch_code": "OB",
+                "prd_code": 2,
+                "table_id": "ttmast",
+                "class": "S",
+                "day_code": 1,
+                "semester": 1,
+                "year_grp_desc": 7,
+                "year_grp": 7,
+                "year_num": 2020,
+                "record_id": 272334,
+                "id": "2_91_2020_1_1_2_0001_7_S_OB_001",
+                "tt_id": 91
+              },
+              {
+                "sub_code": "0019",
+                "room_code": "B1",
+                "tch_code": "AJ",
+                "prd_code": 2,
+                "table_id": "ttmast",
+                "class": "B",
+                "day_code": 1,
+                "semester": 1,
+                "year_grp_desc": 11,
+                "year_grp": 11,
+                "year_num": 2020,
+                "record_id": 272378,
+                "id": "3_91_2020_1_1_2_0019_11_B_AJ_B1",
+                "tt_id": 91
+              }
         ],
-        "token":{
-            "year":2019,
-            "period":7,
-            "timestamp":"{ts '2020-02-28 12:07:15'}"
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "year": 2020,
+            "period": 2,
+            "timestamp": "{ts '2021-01-21 15:24:18'}"
         }
       }
     ```
@@ -100,8 +101,8 @@
 
   ```javascript
     { 
-      "year":"2019",
-      "period":"7"
+      "year":"2020",
+      "period":"2"
     }
   ```
 

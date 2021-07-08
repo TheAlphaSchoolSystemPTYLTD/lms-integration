@@ -40,255 +40,74 @@
 
     ```javascript
       {
-          "teacher_timetable":[
-              {
-                  "DESC_TEXT":"Junior Timetable 2019 S2",
-                  "DAYS":{
-                      "1":{
-                          "PERIODS":{
-                              "1":{
-                                  "SUBJECTS":[
-                                      {
-                                          "SUB_CODE":9998,
-                                          "SUB_SHORT":"HomeRm",
-                                          "HASOVERRIDE":0,
-                                          "ROOM_CODE":"LIB",
-                                          "TCH_CODE":"LB",
-                                          "SUBTAB_YEAR_GRP_DESC":"",
-                                          "CLASS":"A",
-                                          "YEAR_GRP":2,
-                                          "SUB_DESC":"Home Room",
-                                          "SUB_ABREV":"HM",
-                                          "LINE_CODE":"",
-                                          "SUBTAB_YEAR_GRP":""
-                                      }
-                                  ],
-                                  "PRD_END":"1900-01-01 09:35:00.0",
-                                  "PRD_CODE":1,
-                                  "PRD_START":"1900-01-01 08:30:00.0",
-                                  "PRD_DESC":"Lesson 1"
-                              }
+        "teacher_timetable": [
+            {
+              "DESC_TEXT": "Junior Timetable 2020 S2",
+              "DAYS": {
+                  "1": {
+                    "PERIODS": {
+                          "3": {
+                              "SUBJECTS": [
+                                  {
+                                    "SUB_CODE": "0001",
+                                    "SUB_SHORT": "Goat",
+                                    "HASOVERRIDE": 0,
+                                    "ROOM_CODE": "D3",
+                                    "TCH_CODE": "AJ",
+                                    "SUBTAB_YEAR_GRP_DESC": "PK",
+                                    "CLASS": "A",
+                                    "YEAR_GRP": 3,
+                                    "SUB_DESC": "English",
+                                    "SUB_ABREV": "ENG",
+                                    "LINE_CODE": "",
+                                    "SUBTAB_YEAR_GRP": -1
+                                  }
+                              ],
+                              "PRD_END": "1900-01-01 11:29:00.0",
+                              "PRD_CODE": 3,
+                              "PRD_START": "1900-01-01 10:30:00.0",
+                              "PRD_DESC": "Lesson 3"
                           }
-                      }
-                  },
-                  "PERIODMIN":1,
-                  "DAYMAX":5,
-                  "SEMESTER":2,
-                  "DAYMIN":1,
-                  "YEAR_GRP":"",
-                  "ARRLINES":[
-
-                  ],
-                  "YEAR_NUM":2019,
-                  "STRDAYS":{
-                      "1":{
-                          "PERIODS":{
-                              "1":{
-                                  "PRD_END":"1900-01-01 09:35:00.0",
-                                  "PRD_START":"1900-01-01 08:30:00.0",
-                                  "PRD_DESC":"Lesson 1"
-                              },
-                              "2":{
-                                  "PRD_END":"1900-01-01 10:29:00.0",
-                                  "PRD_START":"1900-01-01 09:36:00.0",
-                                  "PRD_DESC":"Lesson 2"
-                              },
-                              "3":{
-                                  "PRD_END":"1900-01-01 11:29:00.0",
-                                  "PRD_START":"1900-01-01 10:30:00.0",
-                                  "PRD_DESC":"Lesson 3"
-                              },
-                              "4":{
-                                  "PRD_END":"1900-01-01 12:29:00.0",
-                                  "PRD_START":"1900-01-01 11:30:00.0",
-                                  "PRD_DESC":"Lesson 4"
-                              },
-                              "5":{
-                                  "PRD_END":"1900-01-01 13:29:00.0",
-                                  "PRD_START":"1900-01-01 12:30:00.0",
-                                  "PRD_DESC":"Lesson 5"
-                              },
-                              "6":{
-                                  "PRD_END":"1900-01-01 14:29:00.0",
-                                  "PRD_START":"1900-01-01 13:30:00.0",
-                                  "PRD_DESC":"Lesson 6"
-                              },
-                              "7":{
-                                  "PRD_END":"1900-01-01 15:29:00.0",
-                                  "PRD_START":"1900-01-01 14:30:00.0",
-                                  "PRD_DESC":"Lesson 7"
-                              }
-                          },
-                          "DAY_DESC":"Monday"
+                    }
+                  }
+              },
+              "PERIODMIN": 1,
+              "DAYMAX": 5,
+              "SEMESTER": 2,
+              "DAYMIN": 1,
+              "YEAR_GRP": "",
+              "ARRLINES": [],
+              "YEAR_NUM": 2020,
+              "STRDAYS": {
+                    "1": {
+                      "PERIODS": {
+                            "1": {
+                              "PRD_END": "1900-01-01 09:35:00.0",
+                              "PRD_START": "1900-01-01 08:30:00.0",
+                              "PRD_DESC": "Lesson 1"
+                            },
+                            "2": {
+                              "PRD_END": "1900-01-01 10:29:00.0",
+                              "PRD_START": "1900-01-01 09:36:00.0",
+                              "PRD_DESC": "Lesson 2"
+                            }
                       },
-                      "2":{
-                          "PERIODS":{
-                              "1":{
-                                  "PRD_END":"1900-01-01 09:29:00.0",
-                                  "PRD_START":"1900-01-01 08:30:00.0",
-                                  "PRD_DESC":"Lesson 1"
-                              },
-                              "2":{
-                                  "PRD_END":"1900-01-01 10:29:00.0",
-                                  "PRD_START":"1900-01-01 09:30:00.0",
-                                  "PRD_DESC":"Lesson 2"
-                              },
-                              "3":{
-                                  "PRD_END":"1900-01-01 11:29:00.0",
-                                  "PRD_START":"1900-01-01 10:30:00.0",
-                                  "PRD_DESC":"Lesson 3"
-                              },
-                              "4":{
-                                  "PRD_END":"1900-01-01 12:29:00.0",
-                                  "PRD_START":"1900-01-01 11:30:00.0",
-                                  "PRD_DESC":"Lesson 4"
-                              },
-                              "5":{
-                                  "PRD_END":"1900-01-01 13:29:00.0",
-                                  "PRD_START":"1900-01-01 12:30:00.0",
-                                  "PRD_DESC":"Lesson 5"
-                              },
-                              "6":{
-                                  "PRD_END":"1900-01-01 14:29:00.0",
-                                  "PRD_START":"1900-01-01 13:30:00.0",
-                                  "PRD_DESC":"Lesson 6"
-                              },
-                              "7":{
-                                  "PRD_END":"1900-01-01 15:29:00.0",
-                                  "PRD_START":"1900-01-01 14:30:00.0",
-                                  "PRD_DESC":"Lesson 7"
-                              }
-                          },
-                          "DAY_DESC":"Tuesday"
-                      },
-                      "3":{
-                          "PERIODS":{
-                              "1":{
-                                  "PRD_END":"1900-01-01 09:29:00.0",
-                                  "PRD_START":"1900-01-01 08:30:00.0",
-                                  "PRD_DESC":"Lesson 1"
-                              },
-                              "2":{
-                                  "PRD_END":"1900-01-01 10:29:00.0",
-                                  "PRD_START":"1900-01-01 09:30:00.0",
-                                  "PRD_DESC":"Lesson 2"
-                              },
-                              "3":{
-                                  "PRD_END":"1900-01-01 11:29:00.0",
-                                  "PRD_START":"1900-01-01 10:30:00.0",
-                                  "PRD_DESC":"Lesson 3"
-                              },
-                              "4":{
-                                  "PRD_END":"1900-01-01 12:29:00.0",
-                                  "PRD_START":"1900-01-01 11:30:00.0",
-                                  "PRD_DESC":"Lesson 4"
-                              },
-                              "5":{
-                                  "PRD_END":"1900-01-01 13:29:00.0",
-                                  "PRD_START":"1900-01-01 12:30:00.0",
-                                  "PRD_DESC":"Lesson 5"
-                              },
-                              "6":{
-                                  "PRD_END":"1900-01-01 14:29:00.0",
-                                  "PRD_START":"1900-01-01 13:30:00.0",
-                                  "PRD_DESC":"Lesson 6"
-                              },
-                              "7":{
-                                  "PRD_END":"1900-01-01 15:29:00.0",
-                                  "PRD_START":"1900-01-01 14:30:00.0",
-                                  "PRD_DESC":"Lesson 7"
-                              }
-                          },
-                          "DAY_DESC":"Wednesday"
-                      },
-                      "4":{
-                          "PERIODS":{
-                              "1":{
-                                  "PRD_END":"1900-01-01 09:29:00.0",
-                                  "PRD_START":"1900-01-01 08:30:00.0",
-                                  "PRD_DESC":"Lesson 1"
-                              },
-                              "2":{
-                                  "PRD_END":"1900-01-01 10:29:00.0",
-                                  "PRD_START":"1900-01-01 09:30:00.0",
-                                  "PRD_DESC":"Lesson 2"
-                              },
-                              "3":{
-                                  "PRD_END":"1900-01-01 11:29:00.0",
-                                  "PRD_START":"1900-01-01 10:30:00.0",
-                                  "PRD_DESC":"Lesson 3"
-                              },
-                              "4":{
-                                  "PRD_END":"1900-01-01 12:29:00.0",
-                                  "PRD_START":"1900-01-01 11:30:00.0",
-                                  "PRD_DESC":"Lesson 4"
-                              },
-                              "5":{
-                                  "PRD_END":"1900-01-01 13:29:00.0",
-                                  "PRD_START":"1900-01-01 12:30:00.0",
-                                  "PRD_DESC":"Lesson 5"
-                              },
-                              "6":{
-                                  "PRD_END":"1900-01-01 14:29:00.0",
-                                  "PRD_START":"1900-01-01 13:30:00.0",
-                                  "PRD_DESC":"Lesson 6"
-                              },
-                              "7":{
-                                  "PRD_END":"1900-01-01 15:29:00.0",
-                                  "PRD_START":"1900-01-01 14:30:00.0",
-                                  "PRD_DESC":"Lesson 7"
-                              }
-                          },
-                          "DAY_DESC":"Thursday"
-                      },
-                      "5":{
-                          "PERIODS":{
-                              "1":{
-                                  "PRD_END":"1900-01-01 09:29:00.0",
-                                  "PRD_START":"1900-01-01 08:30:00.0",
-                                  "PRD_DESC":"Lesson 1"
-                              },
-                              "2":{
-                                  "PRD_END":"1900-01-01 10:29:00.0",
-                                  "PRD_START":"1900-01-01 09:30:00.0",
-                                  "PRD_DESC":"Lesson 2"
-                              },
-                              "3":{
-                                  "PRD_END":"1900-01-01 11:29:00.0",
-                                  "PRD_START":"1900-01-01 10:30:00.0",
-                                  "PRD_DESC":"Lesson 3"
-                              },
-                              "4":{
-                                  "PRD_END":"1900-01-01 12:29:00.0",
-                                  "PRD_START":"1900-01-01 11:30:00.0",
-                                  "PRD_DESC":"Lesson 4"
-                              },
-                              "5":{
-                                  "PRD_END":"1900-01-01 13:29:00.0",
-                                  "PRD_START":"1900-01-01 12:30:00.0",
-                                  "PRD_DESC":"Lesson 5"
-                              },
-                              "6":{
-                                  "PRD_END":"1900-01-01 14:29:00.0",
-                                  "PRD_START":"1900-01-01 13:30:00.0",
-                                  "PRD_DESC":"Lesson 6"
-                              }
-                          },
-                          "DAY_DESC":"Friday"
-                      }
-                  },
-                  "ENTITYCODE":"88_LB",
-                  "TT_ID":88,
-                  "ENTITYNAME":"LB - Lyn Helen Bell",
-                  "PERIODMAX":7
-              }
-          ],
-          "token":{
-              "semester":2,
-              "year_num":2019,
-              "timestamp":"{ts '2020-02-28 10:29:12'}",
-              "teacher_code":"LB"
-          }
+                      "DAY_DESC": "Monday"
+                    }
+              },
+              "ENTITYCODE": "92_AJ",
+              "TT_ID": 92,
+              "ENTITYNAME": "AJ - Mr A O'Johnstone",
+              "PERIODMAX": 7
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "semester": 2,
+            "year_num": 2020,
+            "timestamp": "{ts '2021-01-21 15:16:41'}",
+            "teacher_code": "AJ"
+        }
       }
     ```
  
@@ -319,8 +138,8 @@
 
   ```javascript
     { 
-      "teacher_code":"LB",
-      "year_num":"2019",
+      "teacher_code":"AJ",
+      "year_num":"2020",
       "semester":"2"
     }
   ```

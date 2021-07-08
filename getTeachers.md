@@ -5,6 +5,10 @@
 * **Version History:**
 
   TASS v52.5 - Method Added
+  
+  TASS v53.3 (PR7) -  first_name, other_name, preferred_name and teacher_name have been added
+  
+  TASS v54.3 (PR1) -  first_name, other_name, preferred_name and teacher_name have been added
 
   TASS v54.4 - Enhancement to include "pc_tutor_group" in the result
 
