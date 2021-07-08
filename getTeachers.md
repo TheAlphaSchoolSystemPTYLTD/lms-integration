@@ -6,7 +6,7 @@
 
   TASS v52.5 - Method Added
 
-  TASS v55.2 - Enhancement to include "pc_tutor_group" from teacher table
+  TASS v54.4 - Enhancement to include "pc_tutor_group" from teacher table
 
 * **Version:**
 
