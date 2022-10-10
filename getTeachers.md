@@ -12,6 +12,8 @@
 
   TASS v54.4 - Enhancement to include "pc_tutor_group" in the result
 
+  TASS v57.12 - Update 'surname' to use teacher surname, add 'employee_surname' to retain the original 'surname' value.
+
 * **Version:**
 
   3
@@ -44,7 +46,7 @@
 
     ```javascript
     {
-      "__tassversion":"01.054.4.000",
+      "__tassversion":"01.057.12.000",
       "teachers":[
         {
           "surname":"Allibone",
@@ -68,11 +70,12 @@
           "preferred_name":"Niki",
           "other_name":"Craig",
           "school_email_address":"Nikola.Allibone@alphabus.com.aubnm",
-          "given_names":"Nikola Craig"
+          "given_names":"Nikola Craig",
+          "employee_surname": "Allibone"
         }
       ],
       "token":{
-        "timestamp":"{ts '2021-07-08 12:20:25'}",
+        "timestamp":"{ts '2022-10-10 10:18:32'}",
         "includephoto":true,
         "thumbnail":false,
         "currentstatus":"current"
