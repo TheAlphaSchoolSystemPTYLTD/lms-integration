@@ -22,7 +22,7 @@
 
    **Required:**
 
-   `year_num [string]` -  Year Number
+   `year [string]` -  Year Number
 
    `period [string]` -  Period Code
    
