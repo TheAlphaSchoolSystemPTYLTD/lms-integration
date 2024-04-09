@@ -5,6 +5,7 @@
 * **Version History:**
 
   TASS v52.5 - Method Added
+  
   TASS v59.5 - Added new return fields sub_dept_code and sub_dept_desc. These represent the subject department.
   
 * **Version:**
