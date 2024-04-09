@@ -5,6 +5,7 @@
 * **Version History:**
 
   TASS v52.5 - Method Added
+  TASS v59.5 - Added new return fields sub_dept_code and sub_dept_desc. These represent the subject department.
   
 * **Version:**
 
@@ -48,7 +49,9 @@
               "class": "A",
               "employee_code": 1000016,
               "sub_type": "COR",
-              "teacher_code": "AJ"
+              "teacher_code": "AJ",
+              "sub_dept_code": "MTH",
+              "sub_dept_desc": "Mathematics"
             },
             {
               "semester": 2,
@@ -61,7 +64,9 @@
               "class": "A",
               "employee_code": 1000016,
               "sub_type": "COR",
-              "teacher_code": "AJ"
+              "teacher_code": "AJ",
+              "sub_dept_code": "MTH",
+              "sub_dept_desc": "Mathematics"
             }
         ],
         "__tassversion": "01.053.3.000",
